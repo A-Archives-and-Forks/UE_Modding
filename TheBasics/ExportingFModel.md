@@ -11,27 +11,27 @@ FModel has presets for different games, so it will remember the PAK file and its
 
 To add a new one, simply expand the "Add Undetected Game".
 
-![](/Media/fmodel_1.png)
+![FModel Directory Selector window with 'Add Undetected Game' section expanded to create a new game preset](/Media/fmodel_1.png)
 
 Next, give it a name and specify the path to the Paks folder of the game. For example:<br>
-![](/Media/fmodel_2.png)<br>
+![FModel adding a new game preset: name field filled and Paks folder path selected via file browser](/Media/fmodel_2.png)<br>
 And click the `+` button on the right to create a game preset.
 
 Now you can pick the newly created profile and choose the correct UE4 version.
 Once ready, click OK to begin.
 
 And the next time you launch FModel, you just pick the game and click OK.
-![](/Media/fmodel_3.png)
+![FModel game preset selection dropdown showing the newly created game profile selected, ready to load with UE version chosen](/Media/fmodel_3.png)
 
 ## Adding AES key (optional)
 If your game has AES encryption, navigate to Directory -> AES and input the AES to be able to read the PAK file.
 
-![](/Media/fmodel_4.png)
+![FModel AES key input dialog open under Directory menu, with AES key field ready for pasting the encryption key](/Media/fmodel_4.png)
 
 ## Adding USMapping (optional)
 If your game has mapping (mostly UE5+), navigate to Settings, enable the "Local Mapping File", and provide the .usmap file for the game.
 
-![](/Media/fmodel_usmapping.png)
+![FModel Settings window with 'Local Mapping File' enabled and path to .usmap file selected for UE5+ mapping support](/Media/fmodel_usmapping.png)
 
 _Where can you get that `.usmap`? usually provided by modders_
 
@@ -39,7 +39,7 @@ _Where can you get that `.usmap`? usually provided by modders_
 That's the part where you have to start to explore and look around to find what you're looking for.
 
 ### Navigation Basics
-![](/Media/fmodel_5.png) <br>
+![FModel main interface overview: Archives tab listing .pak files, Folders tab showing directory tree, and Packages tab displaying selected folder contents](/Media/fmodel_5.png) <br>
 
 - Archives Tab: All available `.pak` files within the Paks folder.
 - Folders Tab: The hierarchical structure of the `.pak`.
@@ -48,7 +48,7 @@ That's the part where you have to start to explore and look around to find what 
 
 ### Exporting 
 Exporting is simple, just right-click on the file(s) you want, and pick the right export type.
-![](/Media/fmodel_6.png)<br>
+![FModel right-click context menu on a selected asset file, showing export options including .png for textures, .psk for meshes, .psa for animations, and Json](/Media/fmodel_6.png)<br>
 
 <br>
 Different asset types can be exported differently.<br>

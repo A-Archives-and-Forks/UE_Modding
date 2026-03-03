@@ -22,11 +22,11 @@ Once UE4SS is installed, adjust its configuration file to enable features requir
 2. **Edit the Configuration File**:
    - Open the `UE4SS-settings.ini` file in a text editor (e.g., Notepad++ or VSCode) and apply the Engine Version in the EngineVersionOverride section:
 
-     ![](/Media/UHT/1.png)
+     ![UE4SS-settings.ini file open in editor showing EngineVersionOverride section with MajorVersion and MinorVersion fields set](/Media/UHT/1.png)
 
    - In the Debug section make sure you enable `ConsoleEnabled`, `GuiConsoleEnabled`, and `GuiConsoleVisible`:
   
-     ![](/Media/UHT/2.png)
+     ![UE4SS-settings.ini Debug section with ConsoleEnabled = 1, GuiConsoleEnabled = 1, and GuiConsoleVisible = 1 highlighted](/Media/UHT/2.png)
 
 ---
 
@@ -35,10 +35,10 @@ Once UE4SS is installed, adjust its configuration file to enable features requir
 1. **Launch the game**:
    - Verify that the GUI console appears (it should be visible if configured in `UE4SS-settings.ini`).
    
-     ![](/Media/Extractmappings/1.png)
+     ![UE4SS debug GUI console window open and visible on screen after launching the game](/Media/Extractmappings/1.png)
 
 2. **Output Mapping File**:
    - Use the Dumper tab of the UE4SS Debugging Tool to output the .usmap file.
    - The file will be output to: `Binaries\Win64\Mappings.usmap`
    
-     ![](/Media/Extractmappings/2.png)
+     ![UE4SS debug tool GUI showing the Dumper tab selected with the Dump Mappings / usmap button visible and ready to click](/Media/Extractmappings/2.png)

@@ -6,7 +6,7 @@ UModel will be able to export all files but not browse them properly as FModel d
 
 ## Setting Up
 Download the tool, and launch it.<br>
-![](/Media/umodel_1.png)<br>
+![UModel startup dialog: game path set to Paks folder, UE version selected, and options like Export Sounds enabled](/Media/umodel_1.png)<br>
 
 
 - Specify the full path of the Paks folder of the game.
@@ -18,7 +18,7 @@ Download the tool, and launch it.<br>
 
 ## Browsing Assets
 You will be greeted with this window, where the left side contains the hierarchical structure of the pak file, and the right side contains the current selected folder and its content.
-![](/Media/umodel_2.png)<br>
+![UModel main browser: left pane shows pak folder tree, right pane lists assets in selected directory](/Media/umodel_2.png)<br>
 
 This part is where you have to explore a bit to find what you want/need.
 
@@ -38,7 +38,7 @@ Once you find the correct mesh, texture, blueprint, etc, you have two export opt
 
 
 ### Exporting Skeletal Mesh(SK)
-![](/Media/umodel_3.png)<br>
+![UModel export options window: skeletal mesh selected, .psk format chosen, destination path set](/Media/umodel_3.png)<br>
 - Select the file(s) you want and click Export at the bottom.
 - Specify the export path.
 - Make sure you have `.psk`for Skeletal Mesh, and `.png` for textures.
